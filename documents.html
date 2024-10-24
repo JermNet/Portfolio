@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>EPortfolio - Jeremy Whitenect</title>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	
+	<body>
+		<nav class="navbar">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="projects.html">My Projects</a></li>
+				<li><a href="documents.html">My Documents</a></li>
+				<li><a target="_blank" href="https://github.com/JermNet">My GitHub</a></li>
+				<li><a href="contact.html">Contact Me</a></li>
+			</ul>
+		</nav>
+		
+		<div class="main">
+			<article class="expandable start expandable-open">
+				<div class="expandable-title">
+					<h2>Resume</h2>
+					<ion-icon class="expandable-icon" name="chevron-back-circle-sharp"></ion-icon>
+				</div>
+
+				<div class="expandable-content-wrapper">
+					<div class="expandable-content">
+						<iframe class="pdf" src="documents/Resume.pdf"></iframe>
+					</div>
+				</div>
+			</article>
+
+            <article class="expandable">
+				<div class="expandable-title">
+					<h2>Cover Letter</h2>
+					<ion-icon class="expandable-icon" name="chevron-back-circle-sharp"></ion-icon>
+				</div>
+
+				<div class="expandable-content-wrapper">
+					<div class="expandable-content">
+						<iframe class="pdf" src="documents/Letter.pdf"></iframe>
+					</div>
+				</div>
+			</article>
+
+			<article class="expandable">
+				<div class="expandable-title">
+					<h2>LinkedIn Certifications</h2>
+					<ion-icon class="expandable-icon" name="chevron-back-circle-sharp"></ion-icon>
+				</div>
+
+				<div class="expandable-content-wrapper">
+					<div class="expandable-content">
+						<h3>C</h3>
+						<iframe class="pdf" src="documents/CLinkedin.pdf"></iframe>
+						<h3>Git</h3>
+						<iframe class="pdf" src="documents/GitLinkedin.pdf"></iframe>
+						<h3>JavaScript</h3>
+						<iframe class="pdf" src="documents/JSLinkedin.pdf"></iframe>
+						<h3>Linux</h3>
+						<iframe class="pdf" src="documents/LinuxLinkedin.pdf"></iframe>
+						<h3>Object Oriented Programming</h3>
+						<iframe class="pdf" src="documents/OOPLinkedin.pdf"></iframe>
+						<h3>Systems Analysis and Design</h3>
+						<iframe class="pdf" src="documents/SAADLinkedin.pdf"></iframe>
+					</div>
+				</div>
+			</article>
+			
+			
+			<footer>
+				Website created by Jeremy Whitenect
+				<br>Icons sourced from Ion Icons and Flat Icon
+				<br><a href="#top">Back to top</a>
+			</footer>
+
+		</div>
+
+		<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+		<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+		<script src="script.js"></script>
+	</body>
+	
+</html>
